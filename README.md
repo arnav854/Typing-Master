@@ -101,4 +101,3 @@ MIT
 
 ---
 
-> Made with ❤️ by [Your Name]

@@ -52,7 +52,7 @@ function Navbar() {
               return isActive ? "text-orange-200" : "text-gray-500";
             }}
           >
-            <h3 className="text-xl">
+            <h3 className="text-xl BackToText">
               <i className="ri-keyboard-box-line"></i>
             </h3>
           </NavLink>
@@ -63,8 +63,28 @@ function Navbar() {
               return isActive ? "text-orange-200" : "text-gray-500";
             }}
           >
-            <h3 className="text-xl">
+            <h3 className="text-xl leaderboard">
               <i className="ri-vip-crown-line"></i>
+            </h3>
+          </NavLink>
+          <NavLink
+            to="/leaderboard"
+            className={({ isActive }) => {
+              return isActive ? "text-orange-200" : "text-gray-500";
+            }}
+          >
+            <h3 className="text-xl Team">
+              <i className="ri-group-line"></i>
+            </h3>
+          </NavLink>
+          <NavLink
+            to="/match"
+            className={({ isActive }) => {
+              return isActive ? "text-orange-200" : "text-gray-500";
+            }}
+          >
+            <h3 className="text-xl Match">
+             <i className="ri-sword-line"></i>
             </h3>
           </NavLink>
         </div>
